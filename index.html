@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educaweb</title>
+
+    <!--swiper css link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+   <!-- font awesome cdn--> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+   <!--hoja css-->
+   <link rel="stylesheet" href="index.css">
+ 
+</head>
+<body>
+    <!--Seccion del header-->
+    <header class="header">
+        
+        <section class="flex">
+
+            <a href="#home" class="logo">Educaweb</a>
+            
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">Sobre Nosotros</a>
+                <a href="#courses">Cursos</a>
+                <a href="#teachers">Profesores</a>
+                <a href="#reviews">Comentarios</a>
+                <a href="#contact">Contactanos</a>
+            </nav>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+
+        </section>
+
+       
+    </header>
+
+    <!--Seccion de Home-->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>Aprende<span> Diseño Web</span></h3>
+                <a href="#contact" class="btn">Contactanos</a>
+            </div>
+
+            <div class="image">
+                <img src="/Imagenes/estudiante 3d-Photoroom.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Fin Seccion del Home-->
+
+    <!--Seccion Couter-->
+
+    <section class="count">
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <i class="fas fa-graduation-cap"></i>
+                <div class="content">
+                    <h3>+150</h3>
+                    <p>Cursos</p>
+                </div>
+            </div>
+
+            
+            <div class="box">
+                <i class="fas fa-user-graduate"></i>
+                <div class="content">
+                    <h3>+1300</h3>
+                    <p>Estudiantes</p>
+                </div>
+            </div>
+
+                        
+            <div class="box">
+                <i class="fas fa-chalkboard-user"></i>
+                <div class="content">
+                    <h3>+80</h3>
+                    <p>Profesores</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-face-smile"></i>
+                <div class="content">
+                    <h3>100%</h3>
+                    <p>Satisfaccion</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+    <!--Fin Seccion Couter-->
+
+   <!--seccion sobre nosotros-->
+   <section class="about" id="about">
+    <div class="row">
+        <div class="image">
+            <img src="/Imagenes/estudianteok.png" alt="">
+         </div>
+
+         <div class="content">
+            <h3>¿Por qué elegirnos?</h3>
+            <p>Nosotros nos enfocamos en la educacion virtual, le brindamos a nuestros estudiantes material educativo
+                de excelente calidad </p>
+            <a href="#contact" class="btn">contactanos</a>
+         </div>
+    </div>
+   </section>
+   <!--fin seccion sobre nosotros-->
+
+   <!--seccion cursos-->
+   <section class="courses" id="courses">
+
+    <h1 class="heading">Nuestros<span> Cursos</span> </h1>
+
+    <div class="swiper course-slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/hombreconlaptop-Photoroom.png" alt="">
+                <h3>Desarrollo Web con HTML</h3>
+                <p>Aprende a construir tu propio sitio web en HTML desde cero</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/responsive-icon.png" alt="">
+                <h3>Responsive Web & Bootstrap</h3>
+                <p> Descubre cómo trabajar con maquetados fluidos, grillas y formularios.</p>
+            </div>
+       
+        
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/logo java.webp" alt="">
+                <h3>Javascript desde cero</h3>
+                <p> Aprende a programar en este lenguaje para el desarrollo frontend de sitios web.</p>
+            </div>
+        
+
+        
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/UX.webp" alt="">
+                <h3>Introducción a UX</h3>
+                <p> Mejora la eficiencia y usabilidad de tu sitio web a través del Diseño UX.</p>
+            </div>
+        
+        
+        
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/WORPRESS.png" alt="">
+                <h3>Wordpress</h3>
+                <p>Crea sitios web responsive con el sistema de gestión de contenidos más popular.</p>
+            </div>
+        
+
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/GOOGLE.png" alt="">
+                <h3>Google Web Designer</h3>
+                <p>Domina la herramienta número uno para diseñar animaciones adaptables</p>
+            </div>
+        </div> 
+        <div class="swiper-pagination"></div>    
+    </div>
+   </section>
+   <!--Fin de seccion cursos-->
+
+
+<!--Seccion Profesores-->
+
+<section class="teachers" id="teachers">
+
+    <h1 class="heading">Nuestros<span> Tutores</span></h1>
+
+    <div class="swiper teachers-slider">
+
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/profesor1.jpg" alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+                <h3>Andres Pascal</h3>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/profesor2.jpg" alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+                <h3>Erick Brown</h3>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/profesora3.jpg" alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+                <h3>Olivia Diaz</h3>
+            </div>
+
+
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/profesora4.jpg" alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+                <h3>Abigail Johnson</h3>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/profesora5.jpg"  alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+                <h3>Emilia Ferreira</h3>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="/Imagenes/profesora6.jpg" alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+                <h3>Isabella Gomez</h3>
+            </div>
+
+
+
+        </div>
+
+        <div class="swiper-pagination"></div>   
+
+    </div>
+</section>
+
+
+<!--Fin Seccion Profesores-->
+
+
+<!--Inicio seccion comentarios-->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading">Comentarios<span>  de los estudiantes</span></h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <p>Me pareció un curso muy bueno, bien explicados los conceptos
+                 de las paginas web.</p>
+            <div class="user">
+                <img src="/Imagenes/comentario1.jpeg" alt="">
+                <div class="user-info">
+                    <h3>Juan Castro</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+            </div>
+
+                
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>Excelente la explicación, se entiende todo. Gracias al curso pude 
+                armar una pagina sin problemas.</p>
+            <div class="user">
+                <img src="/Imagenes/comentario2.jpg" alt="">
+                <div class="user-info">
+                    <h3>Olga Martinez</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+            </div>
+
+                
+            </div>
+
+
+            <div class="swiper-slide slide">
+                <p>Muy entendible, buena estrategia de desarrollar el curso en videos cortos, los tutores son excelentes</p>
+            <div class="user">
+                <img src="/Imagenes/comentario3.jpg" alt="">
+                <div class="user-info">
+                    <h3>Henry Castiblanco</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+            </div>
+
+                
+            </div>
+
+
+            <div class="swiper-slide slide">
+                <p>Un gran curso, se nota que el instructor tiene un buen dominio del tema y explica de buena manera.</p>
+            <div class="user">
+                <img src="/Imagenes/comentario4.jpg" alt="">
+                <div class="user-info">
+                    <h3>Miguel Hernandez</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+            </div>
+
+                
+            </div>
+
+
+            <div class="swiper-slide slide">
+                <p>La verdad me parece un gran acercamiento en esto del desarrollo Web, las clases son practicas y faciles.</p>
+            <div class="user">
+                <img src="/Imagenes/comentario5.jpg" alt="">
+                <div class="user-info">
+                    <h3>Luna Giraldo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+            </div>
+
+                
+            </div>
+
+
+
+
+        </div>
+
+        <div class="swiper-pagination"></div>   
+
+    </div>
+
+
+
+</section>
+
+
+<!--Inicio seccion contactos-->
+
+<section class="contact" id="contact">
+
+        <h1 class="heading"><span>Contactanos</span></h1>
+
+        <div class="row">
+
+            <div class="img">
+                <img src="/Imagenes/contactanos.png" alt="">
+            </div>
+
+            <form action="" method="post">
+                <span>Tu nombre</span>
+                <input type="text" required placeholder="Escribe tu nombre completo" maxlength="50" name="name" class="box">
+                <span>Tu email</span>
+                <input type="email" required placeholder="Escribe tu e-mail" maxlength="50" name="email" class="box">
+                <span>Tu telefono</span>
+                <input type="number" required placeholder="Escribe tu telefono" maxlength="9999999999" min="0"name="email" class="box"
+                onkeypress="if(this.value.length == 10) return false">
+                <span>Escoge tu curso</span>
+                <select name="courses" class="box">
+                    <option value="" disabled selected>selecciona el curso --</option>
+                    <option value="Google Web">Google Web designer</option>
+                    <option value="Desarrollo Web">Desarrollo web HTML</option>
+                    <option value="Responsive">Responsive & Bootstrap</option>
+                    <option value="Javascript">Javascript desde cero</option>
+                    <option value="UX">Introducción UX</option>
+                </select>
+                <span>Genero</span>
+                <div class="radio">
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male">Hombre</label>
+
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label for="female">Mujer</label>
+                </div>
+                <input type="submit" value="Enviar" class="btn" name="send">
+            </form>
+
+
+        </div>
+
+
+</section>
+
+<!--seccion footer-->
+
+<footer class="footer">
+     <section>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+
+        <div class="credit">&copy; copyright @2025 by <span>Nayel Castellanos</span> | all rights reserved!</div>
+
+
+
+     </section>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Fin seccion comentarios-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--swipper js link-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!--Hoja Js-->
+<script src="script.js"></script>
+<script src="form.js"></script>
+
+</body>
+</html>
+
